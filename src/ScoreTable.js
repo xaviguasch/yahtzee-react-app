@@ -27,16 +27,36 @@ class ScoreTable extends Component {
           <h2>Upper</h2>
           <table cellSpacing='0'>
             <tbody>
-              <RuleRow name='Ones' score={scores.ones} doScore={evt => doScore('ones', ones.evalRoll)} />
-              <RuleRow name='Twos' score={scores.twos} doScore={evt => doScore('twos', twos.evalRoll)} />
+              <RuleRow
+                name='Ones'
+                score={scores.ones}
+                doScore={evt => doScore('ones', ones.evalRoll)}
+              />
+              <RuleRow
+                name='Twos'
+                score={scores.twos}
+                doScore={evt => doScore('twos', twos.evalRoll)}
+              />
               <RuleRow
                 name='Threes'
                 score={scores.threes}
                 doScore={evt => doScore('threes', threes.evalRoll)}
               />
-              <RuleRow name='Fours' score={scores.fours} doScore={evt => doScore('fours', fours.evalRoll)} />
-              <RuleRow name='Fives' score={scores.fives} doScore={evt => doScore('fives', fives.evalRoll)} />
-              <RuleRow name='Sixes' score={scores.sixes} doScore={evt => doScore('sixes', sixes.evalRoll)} />
+              <RuleRow
+                name='Fours'
+                score={scores.fours}
+                doScore={evt => doScore('fours', fours.evalRoll)}
+              />
+              <RuleRow
+                name='Fives'
+                score={scores.fives}
+                doScore={evt => doScore('fives', fives.evalRoll)}
+              />
+              <RuleRow
+                name='Sixes'
+                score={scores.sixes}
+                doScore={evt => doScore('sixes', sixes.evalRoll)}
+              />
             </tbody>
           </table>
         </section>
